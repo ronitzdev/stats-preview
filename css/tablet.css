@@ -1,0 +1,36 @@
+main {
+    height: 100vh;
+    align-items: center;
+}
+
+
+.card__content {
+    width: 50%;
+}
+
+.card-main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 310px;
+    max-width: 710px;
+}
+
+.card-main-container .img {
+    width: 50%;
+}
+
+.text-container h1 {
+    padding-top: 15px;
+    text-align: left;
+}
+
+
+.text-container p {
+    text-align: left;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}

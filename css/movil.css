@@ -1,0 +1,121 @@
+:root {
+    /* Primary */
+    --main: hsl(233, 47%, 7%);
+    --card: hsl(244, 38%, 16%);
+    --accent: hsl(277, 64%, 61%);
+    /* Neutral */
+    --main-color: hsl(0, 0%, 100%);
+    --paragraph-color: hsla(0, 0%, 100%, 0.75);
+    --stats-color: hsla(0, 0%, 100%, 0.6);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+    max-width: 1440px;
+    background-color: red;
+}
+
+body {
+    min-width: 375px;
+    font-size: 1.5rem;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif; */
+    background-color: var(--main);
+
+
+}
+
+main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+}
+
+
+
+.card-main-container {
+    min-width: 300px;
+    max-width: 510px;
+    margin: 0 20px;
+    /* demas */
+    outline: 0.1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--card);
+}
+
+.card-main-container .img {
+    min-height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(170, 92, 219, 0.6), rgba(170, 92, 219, 0.6)), url('../images/image-header-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 40px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.text-container span {
+    color: var(--accent);
+}
+
+.text-container h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.9rem;
+    font-weight: 700;
+
+}
+
+.text-container p {
+    color: var(--paragraph-color);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.stats-container .number {
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.stats-container .name {
+    color: var(--paragraph-color);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
