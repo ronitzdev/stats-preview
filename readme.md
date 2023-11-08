@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Clic](https://stats-preview-ronitzdev.netlify.app/)
-- Live Site URL: [Clic](https://fylo-main-ronitzdev.netlify.app/)
+- Live Site URL: [Clic](https://stats-preview-ronitzdev.netlify.app/)
 
 ## My process
 
