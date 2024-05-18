@@ -39,5 +39,6 @@ Users should be able to:
 
 ## Author
 
-- Website GitHub - [ronitzdev](https://github.com/ronitzdev)
-- Frontend Mentor - [@ronitzdev](https://www.frontendmentor.io/profile/RoniGerman)
+- GitHub - [ronitzdev](https://github.com/ronitzdev)
+- Frontend Mentor - [@ronitzdev](https://www.frontendmentor.io/profile/ronitzdev)
+- LinkedIn - [@ronitzdev](https://www.linkedin.com/in/ronitzdev/)
